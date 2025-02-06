@@ -1,0 +1,47 @@
+@import '../../../Styless/__variable/_variable.scss';
+
+
+.Text {
+     display: flex;
+     justify-content: space-between;
+
+
+    .text {
+        color: $primary-color;
+    font-family: $primary-font;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    .paragraph {
+        color: $secondary-color;
+    font-family:  $primary-font;
+    font-size: $Font-syze;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

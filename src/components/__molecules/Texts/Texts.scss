@@ -1,0 +1,33 @@
+
+$Same-color: #fff;
+$secondary-font: "Russo One";
+
+
+.Texts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+  
+.Thur {
+    top: 100px;
+    right: 10px;
+    font-size: 18px;
+    position: absolute;
+    color: $Same-color;
+    font-family: $secondary-font;
+    
+}
+
+.AM {
+    top: 140px;
+    right: 10px;
+    font-size: 48px;
+    position: absolute;
+    color: $Same-color;
+    font-family: $secondary-font;
+}
+
+}
+

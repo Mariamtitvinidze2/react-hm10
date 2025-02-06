@@ -1,0 +1,148 @@
+@import '../../../Styless/__variable/_variable';
+
+
+
+.Right {
+    width: 430px;
+height: 636px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+position: relative;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+.img-texts {
+    position: relative;
+    width: 100%;
+    height: 200px; 
+}
+
+.img {
+    width:430px;
+    right: 20px;
+    top: -20px;
+     position: relative;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.Right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: $background-color;
+}
+
+
+
+.label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .note {
+    width: 275px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: $light-bg;
+    padding: 10px;
+    font-family: $font-family-main;
+    border: none;
+    outline: none;
+  }
+
+  .button {
+    width: 50px;
+    height: 50px;
+    background-color: $secondary-color;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+}
+
+.todo-list {
+  width: 100%;
+  margin-top: 30px;
+  overflow-y: auto;
+
+  .task-item {
+    background-color: $white-color;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &.completed {
+      background-color: $light-bg;
+    }
+
+    .task-info {
+      .task-title {
+        font-family: $font-family-main;
+        font-size: 18px;
+        font-weight: 500;
+        color: $text-color;
+        margin-bottom: 5px;
+      }
+
+      .task-time {
+        font-family: $font-family-main;
+        font-size: 14px;
+        font-weight: 400;
+        color: $secondary-text-color;
+      }
+    }
+
+    .task-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .check {
+        position: relative;
+
+        input {
+          position: absolute;
+          opacity: 0;
+        }
+
+        span {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          border: 2px solid $primary-color;
+          display: inline-block;
+        }
+      }
+
+      img {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+}
