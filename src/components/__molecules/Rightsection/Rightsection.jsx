@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Rightsection.scss";
 import Image from "../../../assets/Rectangle.png";
 import Texts from "../Texts/Texts";
-import Bin from "../../../assets/Bin.png";
+import Bin from "../../../assets/bin.png";
 
 const Rightsection = () => {
   const [tasks, setTasks] = useState([]);
